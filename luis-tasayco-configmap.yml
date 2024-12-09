@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: luis-tasayco-configmap
+  namespace: luis-tasayco-namespace
+data:
+  API_BACKEND: "https://ideal-broccoli-xjw9575jq492vx64-8080.app.github.dev/"
